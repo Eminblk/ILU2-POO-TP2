@@ -30,6 +30,7 @@ public class BoundaryEmmenager {
 					StringBuilder question2 = new StringBuilder();
 					question2.append("Bienvenue villageois \n" + nomVisiteur);
 					question2.append("Quelle est votre force ? \n");
+					//TODO a completer
 					int forceUtilisateur=-1;
 					forceUtilisateur = Clavier.entrerEntier(question2.toString());
 					break;
@@ -44,5 +45,10 @@ public class BoundaryEmmenager {
 
 	private void emmenagerDruide(String nomVisiteur) {
 		//TODO a completer
+		StringBuilder question = new StringBuilder();
+		question.append("Bienvenue druide \n" + nomVisiteur);
+		question.append("Quelle est votre force ? \n");
+		int force = Clavier.entrerEntier(question.toString());
+		
 	}
 }
