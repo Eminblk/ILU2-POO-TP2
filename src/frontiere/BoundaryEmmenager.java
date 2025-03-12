@@ -31,17 +31,8 @@ public class BoundaryEmmenager {
 					question2.append("Bienvenue villageois \n" + nomVisiteur);
 					question2.append("Quelle est votre force ? \n");
 					int forceUtilisateur=-1;
-					do {
-						forceUtilisateur = Clavier.entrerEntier(question2.toString());
-					}
-					while(forceUtilisateur<0);
-					
-						
-					
-					
-					
+					forceUtilisateur = Clavier.entrerEntier(question2.toString());
 					break;
-
 				default:
 					System.out
 							.println("Vous devez choisir le chiffre 1 ou 2 !");
