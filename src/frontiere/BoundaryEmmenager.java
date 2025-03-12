@@ -27,7 +27,19 @@ public class BoundaryEmmenager {
 					break;
 
 				case 2:
-					//TODO a completer
+					StringBuilder question2 = new StringBuilder();
+					question2.append("Bienvenue villageois \n" + nomVisiteur);
+					question2.append("Quelle est votre force ? \n");
+					int forceUtilisateur=-1;
+					do {
+						forceUtilisateur = Clavier.entrerEntier(question2.toString());
+					}
+					while(forceUtilisateur<0);
+					
+						
+					
+					
+					
 					break;
 
 				default:
