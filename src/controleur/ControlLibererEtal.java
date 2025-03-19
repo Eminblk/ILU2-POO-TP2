@@ -27,10 +27,8 @@ public class ControlLibererEtal {
 		//TODO a completer
 		Etal[] donneesEtal;
 		Etal etal = controlTrouverEtalVendeur.trouverEtalVendeur(nomVendeur);
-		donneesEtal[0] = etal.isEtalOccupe();
-		donneesEtal = etal.etatEtal(); 
-		
-		
+		donneesEtal[0].isEtalOccupe();
+		etal.etatEtal();
 		return donneesEtal;
 	}
 	
