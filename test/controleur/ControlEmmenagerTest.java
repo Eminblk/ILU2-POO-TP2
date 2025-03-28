@@ -2,6 +2,7 @@ package controleur;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import villagegaulois.Village;
@@ -10,6 +11,8 @@ import personnages.Gaulois;
 
 class ControlEmmenagerTest {
 	
+	private Village village1;
+
 	@BeforeEach
 	public void initialiserSituation() {
 		System.out.println("Initialisation ... ");
